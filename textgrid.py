@@ -110,7 +110,7 @@ class Textgrid(object):
         return True
 
 if __name__ == "__main__":
-    tgrid_path='othello_3_hauff_64kb.TextGrid'#ok
+    tgrid_path='sample.TextGrid'#ok
     
     txtGrd = Textgrid(tgrid_path)
     if not txtGrd.parse_file():
